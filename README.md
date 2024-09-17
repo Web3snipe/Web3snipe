@@ -1,35 +1,41 @@
-👋 About Me
-Ridwan Bakare - Backend & AI Engineer
+class BackendAndAIEngineer {
+  constructor() {
+    this.name = "Ridwan Bakare";
+    this.spokenLanguages = ["en_US"];
+    this.roles = ["Backend Engineer", "AI Engineer"];
+    this.mainSkills = [
+      "JavaScript",
+      "TypeScript",
+      "TensorFlow",
+      "scikit-learn",
+      "Python",
+      "Web3"
+    ];
+    this.architectures = [
+      "MVC",
+      "Serverless",
+      "Microservices",
+      "Web3",
+      "Neural Network Architectures",
+      "Stream Processing"
+    ];
+  }
 
-I'm Ridwan Bakare, a dedicated Backend & AI Engineer with a passion for building scalable systems and developing innovative artificial intelligence solutions. My expertise spans from crafting robust backend infrastructures to exploring advanced AI techniques, aiming to deliver impactful and cutting-edge technologies.
+  static sayHi() {
+    console.log("Welcome to my profile! I'm a Backend & AI Engineer passionate about scalable systems and innovative AI solutions.");
+  }
 
-🌍 Spoken Languages
+  displayProfile() {
+    console.log(`👋 About Me`);
+    console.log(`Name: ${this.name}`);
+    console.log(`🌍 Spoken Languages: ${this.spokenLanguages.join(", ")}`);
+    console.log(`🛠️ Roles: ${this.roles.join(", ")}`);
+    console.log(`💡 Core Skills: ${this.mainSkills.join(", ")}`);
+    console.log(`🏗️ Architectural Expertise: ${this.architectures.join(", ")}`);
+  }
+}
 
-    English (en_US)
-
-🛠️ Roles
-
-    Backend Engineer
-    AI Engineer
-
-💡 Core Skills
-
-    JavaScript
-    TypeScript
-    TensorFlow
-    scikit-learn
-    Python
-    Web3
-
-🏗️ Architectural Expertise
-
-    MVC (Model-View-Controller): Organizing applications with a clear separation of data, logic, and UI.
-    Serverless: Creating scalable and efficient applications without managing server infrastructure.
-    Microservices: Building modular and independent services for complex applications.
-    Web3: Integrating decentralized technologies into modern applications.
-    Neural Network Architectures: Designing advanced AI models with various neural network frameworks.
-    Stream Processing: Managing and analyzing real-time data streams for actionable insights.
-
-🚀 Connect with Me
-
-Feel free to explore my projects, contribute, or reach out if you’re interested in collaborating on exciting new ventures!
+// Usage
+const me = new BackendAndAIEngineer();
+BackendAndAIEngineer.sayHi();
+me.displayProfile();
