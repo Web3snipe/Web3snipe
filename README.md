@@ -1,3 +1,9 @@
+## Connect with Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ridwan_Bakare-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ridwanbakare/)
+[![Twitter](https://img.shields.io/badge/Twitter-web3snipe-blue?style=for-the-badge&logo=x&logoColor=white)](https://x.com/web3snipe)
+
+```javascript
 class BackendAndAIEngineer {
   constructor() {
     this.name = "Ridwan Bakare";
@@ -24,18 +30,7 @@ class BackendAndAIEngineer {
   static sayHi() {
     console.log("Welcome to my profile! I'm a Backend & AI Engineer passionate about scalable systems and innovative AI solutions.");
   }
-
-  displayProfile() {
-    console.log(`👋 About Me`);
-    console.log(`Name: ${this.name}`);
-    console.log(`🌍 Spoken Languages: ${this.spokenLanguages.join(", ")}`);
-    console.log(`🛠️ Roles: ${this.roles.join(", ")}`);
-    console.log(`💡 Core Skills: ${this.mainSkills.join(", ")}`);
-    console.log(`🏗️ Architectural Expertise: ${this.architectures.join(", ")}`);
-  }
 }
 
-// Usage
 const me = new BackendAndAIEngineer();
 BackendAndAIEngineer.sayHi();
-me.displayProfile();
