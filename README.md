@@ -1,6 +1,6 @@
 ## Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Ridwan_Bakare-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ridwanbakare/)
+
 [![Twitter](https://img.shields.io/badge/Twitter-web3snipe-blue?style=for-the-badge&logo=x&logoColor=white)](https://x.com/web3snipe)
 
 ```javascript
